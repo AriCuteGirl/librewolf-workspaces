@@ -33,3 +33,7 @@ and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` in `abou
 ## License and attribution
 
 The overlay files retain the Mozilla Public License 2.0 headers and are distributed under MPL-2.0. LibreWolf is maintained by the LibreWolf project; this repository is an independent personal customization overlay, not an official LibreWolf release.
+
+## Prebuilt Linux package
+
+The [latest release](https://github.com/AriCuteGirl/librewolf-workspaces/releases/latest) includes a Linux x86_64 portable archive. Extract it and run `./install.sh`; it creates a `librewolf-workspaces` launcher and application-menu entry without touching an existing system LibreWolf/Firefox installation.
