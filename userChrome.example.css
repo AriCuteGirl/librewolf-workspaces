@@ -1,0 +1,62 @@
+/* Ari: Umbriel square corners + Noctalia palette. Browser UI only. */
+:root {
+  --lwt-accent-color: #1E1424 !important;
+  --lwt-text-color: #F3E8F0 !important;
+  --toolbar-bgcolor: #1E1424 !important;
+  --toolbar-color: #F3E8F0 !important;
+  --toolbar-field-background-color: #2E1F36 !important;
+  --toolbar-field-color: #F3E8F0 !important;
+  --toolbar-field-focus-background-color: #2E1F36 !important;
+  --toolbar-field-focus-color: #F3E8F0 !important;
+  --toolbar-field-focus-border-color: #E76D83 !important;
+  --toolbarbutton-icon-fill: #F3E8F0 !important;
+  --toolbarbutton-hover-background: #3A2844 !important;
+  --toolbarbutton-active-background: #792359 !important;
+  --lwt-tab-text: #F3E8F0 !important;
+  --lwt-tab-line-color: #C94277 !important;
+  --tab-selected-bgcolor: #2E1F36 !important;
+  --tab-selected-textcolor: #F3E8F0 !important;
+  --tab-loading-fill: #E76D83 !important;
+  --focus-outline-color: #E76D83 !important;
+  --arrowpanel-background: #2E1F36 !important;
+  --arrowpanel-color: #F3E8F0 !important;
+  --arrowpanel-border-color: #792359 !important;
+  --panel-separator-color: #792359 !important;
+}
+* { border-radius: 0 !important; }
+#navigator-toolbox, #sidebar-box, panel, menupopup {
+  font-family: "JetBrains Mono Nerd Font", "Noto Sans", sans-serif !important;
+}
+#navigator-toolbox, #TabsToolbar, #nav-bar, #PersonalToolbar, #toolbar-menubar {
+  background-color: #1E1424 !important;
+  color: #F3E8F0 !important;
+  background-image: none !important;
+}
+#navigator-toolbox { border-bottom: none !important; }
+#nav-bar { box-shadow: none !important; }
+.tab-background { box-shadow: none !important; }
+.tab-background[selected] {
+  background: #2E1F36 !important;
+  border-bottom: 2px solid #C94277 !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected]) {
+  background-color: #3A2844 !important;
+}
+.tabbrowser-tab[workspace-folder] > .tab-stack > .tab-background {
+  box-shadow: inset 0 0 0 1px var(--workspace-tab-color) !important;
+}
+#urlbar-background, #searchbar {
+  background-color: #2E1F36 !important;
+  border: 1px solid #792359 !important;
+}
+#urlbar[focused] > #urlbar-background { border-color: #E76D83 !important; }
+#urlbar-input, #urlbar, #searchbar { color: #F3E8F0 !important; }
+.urlbarView-row[selected] .urlbarView-row-inner {
+  background-color: #792359 !important;
+  color: #F3E8F0 !important;
+}
+.urlbarView-url { color: #B7C0EE !important; }
+#sidebar-box, #sidebar-header {
+  background-color: #1E1424 !important;
+  color: #F3E8F0 !important;
+}
